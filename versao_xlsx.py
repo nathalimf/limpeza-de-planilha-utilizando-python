@@ -3,7 +3,7 @@ import os
 
 colunas_para_remover = []
 try:
-    with open('base de dados1.txt', 'r', encoding='utf-8') as file:
+    with open('base de dados.txt', 'r', encoding='utf-8') as file:
         for linha in file:
             if ':' in linha:
                 partes = linha.split(':', 1)
@@ -14,7 +14,7 @@ try:
                 if status == "Não":
                     colunas_para_remover.append(nome_coluna)
 except FileNotFoundError:
-    print("Aviso: Arquivo 'base de dados1.txt' não encontrado.")
+    print("Aviso: Arquivo 'base de dados.txt' não encontrado.")
 
 nome_arquivo_csv = '2025 SINISTROS.csv' 
 
