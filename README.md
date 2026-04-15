@@ -1,4 +1,5 @@
-🧹 Limpeza de Planilha de Sinistros (2025)
+**🧹 Limpeza de Planilha de Sinistros (2025)**
+
 Esse repositório contem um script em Python desenvolvido para automatizar o tratamento e a limpeza de dados de uma planilha de sinistros. O script lê as regras de exclusão de colunas de um arquivo de configuração externo e realiza diversos tratamentos de dados.
 Para o uso do script de forma rápida e fácil, basta acessar a ferramenta online Google Colab (disponível em https://colab.research.google.com/), **upar os arquivos necessários e rodá-lo :)**
 - **Arquivos necessários:**
