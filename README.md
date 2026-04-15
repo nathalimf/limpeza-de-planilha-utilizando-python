@@ -1,12 +1,12 @@
-- Limpeza de dados de Sinistros
+🧹 Limpeza de Planilha de Sinistros (2025)
 Esse repositório contem um script em Python desenvolvido para automatizar o tratamento e a limpeza de dados de uma planilha de sinistros. O script lê as regras de exclusão de colunas de um arquivo de configuração externo e realiza diversos tratamentos de dados.
 Para o uso do script de forma rápida e fácil, basta acessar a ferramenta online Google Colab (disponível em https://colab.research.google.com/), **upar os arquivos necessários e rodá-lo :)**
 - **Arquivos necessários:**
   - versao_xlsx.py: O código principal.
   - base de dados.txt: Arquivo de texto contendo a lista de colunas e o status (Sim/Não) para remoção.
   - 2025 SINISTROS.xlsx: A base de dados bruta original.
-  *Nota: Para rodar arquivos de outros anos: basta alterar a data vigente referente ao arquivo de base no qual será upado.
-         Para alterar os status de "Sim" e "Não".
+  *Nota: Caso deseje alterar arquivos de sinistros de outros anos: basta mudar a data vigente referente ao arquivo de base no qual será upado.
+         Caso deseje alterar as colunas a serem excluidas: basta mudar os status de "Sim" e "Não"
 
 - Funcionalidades
 O script realiza as seguintes etapas de processamento:
